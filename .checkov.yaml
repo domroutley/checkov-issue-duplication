@@ -1,0 +1,9 @@
+compact: true
+directory:
+  - .
+download-external-modules: true
+evaluate-variables: true
+external-modules-download-path: .terraform/checkov_modules
+framework:
+  - terraform
+quiet: true
