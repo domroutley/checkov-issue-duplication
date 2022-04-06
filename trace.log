@@ -1,0 +1,220 @@
+2022-04-06 14:24:06,359 [MainThread  ] [DEBUG]  Leveraging the bundled IAM Definition.
+2022-04-06 14:24:06,359 [MainThread  ] [DEBUG]  Leveraging the IAM definition at C:\Python310\lib\site-packages\policy_sentry\shared\data\iam-definition.json
+2022-04-06 14:24:06,518 [MainThread  ] [DEBUG]  Loading external checks from C:\Python310\lib\site-packages\checkov/bicep/checks/graph_checks
+2022-04-06 14:24:06,575 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:06,666 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:06,696 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:06,696 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:06,765 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:06,774 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:06,820 [MainThread  ] [DEBUG]  Popen(['git', 'version'], cwd=C:\Users\Dom.Routley\git\testing\checkov-issue-duplication, universal_newlines=False, shell=None, istream=None)
+2022-04-06 14:24:06,891 [MainThread  ] [DEBUG]  Popen(['git', 'version'], cwd=C:\Users\Dom.Routley\git\testing\checkov-issue-duplication, universal_newlines=False, shell=None, istream=None)
+2022-04-06 14:24:07,006 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,123 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,134 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,134 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,134 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,134 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,134 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,134 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,144 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,275 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,275 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,275 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,275 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,275 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,275 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,284 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,284 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): all
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  No API key present; setting include_all_checkov_policies to True
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  Checkov version: 2.0.1036
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  Python executable: C:\Python310\python.exe
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  Python version: 3.10.2 (tags/v3.10.2:a58ebcc, Jan 17 2022, 14:12:15) [MSC v.1929 64 bit (AMD64)]
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  Checkov executable (argv[0]): C:\Python310\Scripts\checkov.cmd
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  Config File (C:\Users\Dom.Routley\git\testing\checkov-issue-duplication\.checkov.yaml):
+  compact:           True
+  directory:         ['.']
+  download-external-modules:True
+  evaluate-variables:True
+  external-modules-download-path:.terraform/checkov_modules
+  framework:         ['terraform']
+  quiet:             True
+Defaults:
+  --branch:          master
+
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  Resultant set of frameworks (removing skipped frameworks): terraform
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  terraform_runner declares no system dependency checks required.
+2022-04-06 14:24:07,295 [MainThread  ] [DEBUG]  No API key found. Scanning locally only.
+2022-04-06 14:24:07,387 [MainThread  ] [DEBUG]  Got checkov mappings and guidelines from Bridgecrew BE
+2022-04-06 14:24:07,388 [MainThread  ] [DEBUG]  Loading external checks from C:\Python310\lib\site-packages\checkov/terraform/checks/graph_checks
+2022-04-06 14:24:07,388 [MainThread  ] [DEBUG]  Searching through ['aws', 'azure', 'gcp', '__pycache__'] and ['__init__.py']
+2022-04-06 14:24:07,388 [MainThread  ] [DEBUG]  Searching through [] and ['ALBProtectedByWAF.yaml', 'ALBRedirectsHTTPToHTTPS.yaml', 'AMRClustersNotOpenToInternet.yaml', 'APIGWLoggingLevelsDefinedProperly.yaml', 'APIProtectedByWAF.yaml', 'AppSyncProtectedByWAF.yaml', 'AutoScalingEnableOnDynamoDBTables.yaml', 'AutoScallingEnabledELB.yaml', 'AWSNATGatewaysshouldbeutilized.yaml', 'AWSSSMParameterShouldBeEncrypted.yaml', 'CloudFrontHasSecurityHeadersPolicy.yaml', 'CloudtrailHasCloudwatch.yaml', 'EBSAddedBackup.yaml', 'EFSAddedBackup.yaml', 'EIPAllocatedToVPCAttachedEC2.yaml', 'EncryptedEBSVolumeOnlyConnectedToEC2s.yaml', 'GuardDutyIsEnabled.yaml', 'HTTPNotSendingPasswords.yaml', 'IAMGroupHasAtLeastOneUser.yaml', 'IAMUserHasNoConsoleAccess.yaml', 'IAMUsersAreMembersAtLeastOneGroup.yaml', 'PostgresDBHasQueryLoggingEnabled.yaml', 'PostgresRDSHasQueryLoggingEnabled.yaml', 'RDSClusterHasBackupPlan.yaml', 'Route53ARecordAttachedResource.yaml', 'S3BucketEncryption.yaml', 'S3BucketHasPublicAccessBlock.yaml', 'S3BucketLogging.yaml', 'S3BucketVersioning.yaml', 'S3KMSEncryptedByDefault.yaml', 'S3PublicACLRead.yaml', 'S3PublicACLWrite.yaml', 'SGAttachedToResource.yaml', 'SubnetHasACL.yaml', 'VPCHasFlowLog.yaml', 'VPCHasRestrictedSG.yaml', 'WAF2HasLogs.yaml']
+2022-04-06 14:24:07,504 [MainThread  ] [DEBUG]  Searching through [] and ['AccessToPostgreSQLFromAzureServicesIsDisabled.yaml', 'AzureActiveDirectoryAdminIsConfigured.yaml', 'AzureAntimalwareIsConfiguredWithAutoUpdatesForVMs.yaml', 'AzureDataFactoriesEncryptedWithCustomerManagedKey.yaml', 'AzureMSSQLServerHasSecurityAlertPolicy.yaml', 'AzureNetworkInterfacePublicIPAddressId.yaml', 'AzureStorageAccountsUseCustomerManagedKeyForEncryption.yaml', 'AzureSynapseWorkspacesHaveNoIPFirewallRulesAttached.yaml', 'AzureUnattachedDisksAreEncrypted.yaml', 'CognitiveServicesCustomerManagedKey.yaml', 'DataExplorerEncryptionUsesCustomKey.yaml', 'MSQLenablesCustomerManagedKey.yaml', 'PGSQLenablesCustomerManagedKey.yaml', 'SQLServerAuditingEnabled.yaml', 'SQLServerAuditingRetention90Days.yaml', 'StorageContainerActivityLogsNotPublic.yaml', 'StorageCriticalDataEncryptedCMK.yaml', 'StorageLoggingIsEnabledForBlobService.yaml', 'StorageLoggingIsEnabledForTableService.yaml', 'VAconfiguredToSendReports.yaml', 'VAconfiguredToSendReportsToAdmins.yaml', 'VAisEnabledInStorageAccount.yaml', 'VAsetPeriodicScansOnSQL.yaml', 'VirtualMachinesUtilizingManagedDisks.yaml', 'VMHasBackUpMachine.yaml']
+2022-04-06 14:24:07,544 [MainThread  ] [DEBUG]  Searching through [] and ['DisableAccessToSqlDBInstanceForRootUsersWithoutPassword.yaml', 'GCPAuditLogsConfiguredForAllServicesAndUsers.yaml', 'GCPContainerRegistryReposAreNotPubliclyAccessible.yaml', 'GCPKMSCryptoKeysAreNotPubliclyAccessible.yaml', 'GCPKMSKeyRingsAreNotPubliclyAccessible.yaml', 'GCPLogBucketsConfiguredUsingLock.yaml', 'GCPProjectHasNoLegacyNetworks.yaml', 'GKEClustersAreNotUsingDefaultServiceAccount.yaml', 'ServiceAccountHasGCPmanagedKey.yaml']
+2022-04-06 14:24:07,584 [MainThread  ] [DEBUG]  Searching through [] and ['__init__.cpython-310.pyc']
+2022-04-06 14:24:07,584 [MainThread  ] [DEBUG]  Loading external checks from C:\Python310\lib\site-packages\checkov/cloudformation/checks/graph_checks
+2022-04-06 14:24:07,584 [MainThread  ] [DEBUG]  Searching through ['__pycache__'] and ['__init__.py']
+2022-04-06 14:24:07,584 [MainThread  ] [DEBUG]  Searching through [] and ['__init__.cpython-310.pyc']
+2022-04-06 14:24:07,584 [MainThread  ] [DEBUG]  Loading external checks from C:\Python310\lib\site-packages\checkov/kubernetes/checks/graph_checks
+2022-04-06 14:24:07,584 [MainThread  ] [DEBUG]  Searching through ['__pycache__'] and ['__init__.py']
+2022-04-06 14:24:07,584 [MainThread  ] [DEBUG]  Searching through [] and ['__init__.cpython-310.pyc']
+2022-04-06 14:24:07,584 [MainThread  ] [DEBUG]  Loading external checks from C:\Python310\lib\site-packages\checkov/bicep/checks/graph_checks
+2022-04-06 14:24:07,585 [MainThread  ] [DEBUG]  Loading external checks from C:\Python310\lib\site-packages\checkov/terraform_plan/checks/graph_checks
+2022-04-06 14:24:07,586 [MainThread  ] [INFO ]  Scanning root folder and producing fresh tf_definitions and context
+2022-04-06 14:24:07,586 [MainThread  ] [INFO ]  Parsing HCL files in source dir
+2022-04-06 14:24:07,591 [MainThread  ] [DEBUG]  Parsing C:\Users\Dom.Routley\git\testing\checkov-issue-duplication\main.tf
+2022-04-06 14:24:07,598 [MainThread  ] [DEBUG]  Parsing C:\Users\Dom.Routley\git\testing\checkov-issue-duplication\terraform.tf
+2022-04-06 14:24:07,598 [MainThread  ] [DEBUG]  Parsing C:\Users\Dom.Routley\git\testing\checkov-issue-duplication\variables.tf
+2022-04-06 14:24:07,598 [MainThread  ] [DEBUG]  failed while parsing file C:\Users\Dom.Routley\git\testing\checkov-issue-duplication\variables.tf
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\lark\lexer.py", line 528, in lex
+    yield lexer.next_token(lexer_state, parser_state)
+  File "C:\Python310\lib\site-packages\lark\lexer.py", line 466, in next_token
+    raise UnexpectedCharacters(lex_state.text, line_ctr.char_pos, line_ctr.line, line_ctr.column,
+lark.exceptions.UnexpectedCharacters: No terminal matches '[' in the current parser context, at line 9 col 7
+
+      [
+      ^
+Expected one of: 
+	* RPAR
+
+Previous tokens: Token('_NEW_LINE_OR_COMMENT', '# All true requires a list as the arg\n')
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\checkov\terraform\parser.py", line 712, in _load_or_die_quietly
+    raw_data = hcl2.load(f)
+  File "C:\Python310\lib\site-packages\hcl2\api.py", line 10, in load
+    return loads(file.read())
+  File "C:\Python310\lib\site-packages\hcl2\api.py", line 68, in loads
+    return hcl2.parse(text + "\n")
+  File "C:\Python310\lib\site-packages\hcl2\parser.py", line 43, in parse
+    tree = Hcl2.lark_parser.parse(text)
+  File "C:\Python310\lib\site-packages\lark\lark.py", line 625, in parse
+    return self.parser.parse(text, start=start, on_error=on_error)
+  File "C:\Python310\lib\site-packages\lark\parser_frontends.py", line 96, in parse
+    return self.parser.parse(stream, chosen_start, **kw)
+  File "C:\Python310\lib\site-packages\lark\parsers\lalr_parser.py", line 41, in parse
+    return self.parser.parse(lexer, start)
+  File "C:\Python310\lib\site-packages\lark\parsers\lalr_parser.py", line 171, in parse
+    return self.parse_from_state(parser_state)
+  File "C:\Python310\lib\site-packages\lark\parsers\lalr_parser.py", line 188, in parse_from_state
+    raise e
+  File "C:\Python310\lib\site-packages\lark\parsers\lalr_parser.py", line 178, in parse_from_state
+    for token in state.lexer.lex(state):
+  File "C:\Python310\lib\site-packages\lark\lexer.py", line 537, in lex
+    raise UnexpectedToken(token, e.allowed, state=parser_state, token_history=[last_token], terminals_by_name=self.root_lexer.terminals_by_name)
+lark.exceptions.UnexpectedToken: Unexpected token Token('LSQB', '[') at line 9, column 7.
+Expected one of: 
+	* RPAR
+Previous tokens: [Token('_NEW_LINE_OR_COMMENT', '# All true requires a list as the arg\n')]
+
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Module load loop 0
+2022-04-06 14:24:07,604 [MainThread  ] [INFO ]  Building graph from parsed module
+2022-04-06 14:24:07,604 [MainThread  ] [INFO ]  Creating vertices
+2022-04-06 14:24:07,604 [MainThread  ] [INFO ]  Creating edges
+2022-04-06 14:24:07,604 [MainThread  ] [INFO ]  Rendering variables, graph has 4 vertices and 2 edges
+2022-04-06 14:24:07,604 [MainThread  ] [INFO ]  evaluating 2 edges
+2022-04-06 14:24:07,604 [MainThread  ] [INFO ]  done evaluating edges
+2022-04-06 14:24:07,604 [MainThread  ] [INFO ]  done evaluate_non_rendered_values
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Created definitions context
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Scanning file: /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Running check: Ensure 'Trusted Microsoft Services' is enabled for Storage Account access on file /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  File /main.tf, resource  "azurerm_storage_account.main" check "Ensure 'Trusted Microsoft Services' is enabled for Storage Account access" Result: {'result': <CheckResult.PASSED: 'PASSED'>, 'evaluated_keys': ['network_rules/[0]/bypass']} 
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Running check: Ensure default network access rule for Storage Accounts is set to deny on file /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  File /main.tf, resource  "azurerm_storage_account.main" check "Ensure default network access rule for Storage Accounts is set to deny" Result: {'result': <CheckResult.FAILED: 'FAILED'>, 'evaluated_keys': ['network_rules/[0]/default_action']} 
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Running check: Ensure that Storage accounts disallow public access on file /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  File /main.tf, resource  "azurerm_storage_account.main" check "Ensure that Storage accounts disallow public access" Result: {'result': <CheckResult.PASSED: 'PASSED'>, 'evaluated_keys': ['allow_blob_public_access']} 
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Running check: Ensure that storage account enables secure transfer on file /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  File /main.tf, resource  "azurerm_storage_account.main" check "Ensure that storage account enables secure transfer" Result: {'result': <CheckResult.PASSED: 'PASSED'>, 'evaluated_keys': ['enable_https_traffic_only']} 
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Running check: Ensure Storage logging is enabled for Queue service for read, write and delete requests on file /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  File /main.tf, resource "azurerm_storage_account.main" check "Ensure Storage logging is enabled for Queue service for read, write and delete requests" Result: {'result': <CheckResult.SKIPPED: 'SKIPPED'>, 'suppress_comment': 'We are not using the queue service, so do not need this'}, Suppression comment: We are not using the queue service, so do not need this 
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Running check: Ensure Storage Account is using the latest version of TLS encryption on file /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  File /main.tf, resource  "azurerm_storage_account.main" check "Ensure Storage Account is using the latest version of TLS encryption" Result: {'result': <CheckResult.PASSED: 'PASSED'>, 'evaluated_keys': ['min_tls_version']} 
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Running check: Ensure Storage Accounts adhere to the naming rules on file /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  File /main.tf, resource  "azurerm_storage_account.main" check "Ensure Storage Accounts adhere to the naming rules" Result: {'result': <CheckResult.UNKNOWN: 'UNKNOWN'>, 'evaluated_keys': ['name']} 
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Running check: Ensure that 'Secure transfer required' is set to 'Enabled' on file /main.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  File /main.tf, resource  "azurerm_storage_account.main" check "Ensure that 'Secure transfer required' is set to 'Enabled'" Result: {'result': <CheckResult.PASSED: 'PASSED'>, 'evaluated_keys': ['enable_https_traffic_only']} 
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Scanning file: /terraform.tf
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Loading external checks from C:\Python310\lib\site-packages\checkov/terraform/checks/graph_checks
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Searching through ['aws', 'azure', 'gcp', '__pycache__'] and ['__init__.py']
+2022-04-06 14:24:07,604 [MainThread  ] [DEBUG]  Searching through [] and ['ALBProtectedByWAF.yaml', 'ALBRedirectsHTTPToHTTPS.yaml', 'AMRClustersNotOpenToInternet.yaml', 'APIGWLoggingLevelsDefinedProperly.yaml', 'APIProtectedByWAF.yaml', 'AppSyncProtectedByWAF.yaml', 'AutoScalingEnableOnDynamoDBTables.yaml', 'AutoScallingEnabledELB.yaml', 'AWSNATGatewaysshouldbeutilized.yaml', 'AWSSSMParameterShouldBeEncrypted.yaml', 'CloudFrontHasSecurityHeadersPolicy.yaml', 'CloudtrailHasCloudwatch.yaml', 'EBSAddedBackup.yaml', 'EFSAddedBackup.yaml', 'EIPAllocatedToVPCAttachedEC2.yaml', 'EncryptedEBSVolumeOnlyConnectedToEC2s.yaml', 'GuardDutyIsEnabled.yaml', 'HTTPNotSendingPasswords.yaml', 'IAMGroupHasAtLeastOneUser.yaml', 'IAMUserHasNoConsoleAccess.yaml', 'IAMUsersAreMembersAtLeastOneGroup.yaml', 'PostgresDBHasQueryLoggingEnabled.yaml', 'PostgresRDSHasQueryLoggingEnabled.yaml', 'RDSClusterHasBackupPlan.yaml', 'Route53ARecordAttachedResource.yaml', 'S3BucketEncryption.yaml', 'S3BucketHasPublicAccessBlock.yaml', 'S3BucketLogging.yaml', 'S3BucketVersioning.yaml', 'S3KMSEncryptedByDefault.yaml', 'S3PublicACLRead.yaml', 'S3PublicACLWrite.yaml', 'SGAttachedToResource.yaml', 'SubnetHasACL.yaml', 'VPCHasFlowLog.yaml', 'VPCHasRestrictedSG.yaml', 'WAF2HasLogs.yaml']
+2022-04-06 14:24:07,718 [MainThread  ] [DEBUG]  Searching through [] and ['AccessToPostgreSQLFromAzureServicesIsDisabled.yaml', 'AzureActiveDirectoryAdminIsConfigured.yaml', 'AzureAntimalwareIsConfiguredWithAutoUpdatesForVMs.yaml', 'AzureDataFactoriesEncryptedWithCustomerManagedKey.yaml', 'AzureMSSQLServerHasSecurityAlertPolicy.yaml', 'AzureNetworkInterfacePublicIPAddressId.yaml', 'AzureStorageAccountsUseCustomerManagedKeyForEncryption.yaml', 'AzureSynapseWorkspacesHaveNoIPFirewallRulesAttached.yaml', 'AzureUnattachedDisksAreEncrypted.yaml', 'CognitiveServicesCustomerManagedKey.yaml', 'DataExplorerEncryptionUsesCustomKey.yaml', 'MSQLenablesCustomerManagedKey.yaml', 'PGSQLenablesCustomerManagedKey.yaml', 'SQLServerAuditingEnabled.yaml', 'SQLServerAuditingRetention90Days.yaml', 'StorageContainerActivityLogsNotPublic.yaml', 'StorageCriticalDataEncryptedCMK.yaml', 'StorageLoggingIsEnabledForBlobService.yaml', 'StorageLoggingIsEnabledForTableService.yaml', 'VAconfiguredToSendReports.yaml', 'VAconfiguredToSendReportsToAdmins.yaml', 'VAisEnabledInStorageAccount.yaml', 'VAsetPeriodicScansOnSQL.yaml', 'VirtualMachinesUtilizingManagedDisks.yaml', 'VMHasBackUpMachine.yaml']
+2022-04-06 14:24:07,764 [MainThread  ] [DEBUG]  Searching through [] and ['DisableAccessToSqlDBInstanceForRootUsersWithoutPassword.yaml', 'GCPAuditLogsConfiguredForAllServicesAndUsers.yaml', 'GCPContainerRegistryReposAreNotPubliclyAccessible.yaml', 'GCPKMSCryptoKeysAreNotPubliclyAccessible.yaml', 'GCPKMSKeyRingsAreNotPubliclyAccessible.yaml', 'GCPLogBucketsConfiguredUsingLock.yaml', 'GCPProjectHasNoLegacyNetworks.yaml', 'GKEClustersAreNotUsingDefaultServiceAccount.yaml', 'ServiceAccountHasGCPmanagedKey.yaml']
+2022-04-06 14:24:07,789 [MainThread  ] [DEBUG]  Searching through [] and ['__init__.cpython-310.pyc']
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_28
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_20
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_7
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_4
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_29
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_33
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_16
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_15
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_35
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_34
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_32
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_10
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_9
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_18
+2022-04-06 14:24:07,789 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_19
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_2
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_3
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_36
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_14
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_22
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_21
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_30
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_27
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_8
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_23
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AWS_19
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_6
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AWS_18
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AWS_21
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AWS_145
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AWS_20
+2022-04-06 14:24:07,794 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AWS_57
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_5
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_1
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_11
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_12
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AWS_31
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_6
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_7
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_10
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_15
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_13
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AZURE_119
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_18
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_19
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_14
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_22
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_11
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_16
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_17
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AZURE_23
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV_AZURE_24
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_8
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_1
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_21
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_20
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_4
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_5
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_2
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_3
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_9
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_AZURE_12
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_7
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_5
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_9
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_6
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_8
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_4
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_2
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_1
+2022-04-06 14:24:07,797 [ThreadPoolEx] [DEBUG]  Running graph check: CKV2_GCP_3
+2022-04-06 14:24:07,805 [MainThread  ] [DEBUG]  Getting exit code for report terraform
+2022-04-06 14:24:07,805 [MainThread  ] [DEBUG]  In get_exit_code; soft_fail: False, soft_fail_on: None, hard_fail_on: None
+2022-04-06 14:24:07,805 [MainThread  ] [DEBUG]  There are failed checks and all soft/hard fail args are empty - returning 1
